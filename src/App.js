@@ -2,7 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import ItemList from './ItemList';
 import Footer from './Footer';
+import AddButton from './AddButton';
+import AddItem from './AddItem';
 import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -15,6 +18,8 @@ function App() {
   {id: 3,
   value: "Get Bread",
   checked: false}])
+  const [addState, setAddState] = useState(false);
+  const [newItem, setNewItem] = useState('');
 
   const onChecked = (id) => {
     console.log(id)
@@ -28,12 +33,34 @@ function App() {
     setItemState(newItemState);
   }
 
+  const onAdd = () => {
+    setAddState(!addState);
+
+  }
+
+  const handleSubmit = (e) => {
+    console.log("Submitting")
+    e.preventDefault();
+    console.log(e.target)
+    let itemId = itemState.length ? itemState[itemState.length-1].id++ : 1;
+    console.log(itemId)
+    let itemList = [...itemState, {id: itemId,
+                  value: newItem,
+                  checked: false}];
+    setItemState(itemList);
+    setAddState(!addState);
+    setNewItem('');
+
+  }
+
 
   return (
     <div className="App">
       <header className="header">
         <h1>Grocery List</h1>
       </header>
+      <AddButton onAdd={onAdd}/>
+      {addState ? <AddItem maxLenght="100" handleSubmit={handleSubmit} newItem={newItem} setNewItem={setNewItem}/> : null}
       <ItemList items={itemState} onChange={onChecked} onDelete={onDelete}/>
       <Footer items={itemState}/>
     </div>

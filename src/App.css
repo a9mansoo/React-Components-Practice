@@ -8,6 +8,7 @@
   text-align: justify;
   box-sizing: border-box;
   margin-top: 5%;
+  overflow-y: scroll;
 
 }
 
@@ -56,9 +57,18 @@
   place-content: center;
   grid-area: footer;
   width: 100%;
-  position: absolute;
   margin-top: 5%;
   bottom: 0px;
+}
+
+#add{
+  width: 2.5rem;
+  height: 2.5rem;
+  color: blue;
+}
+
+#add:hover{
+  color: greenyellow;
 }
 
 .header{
