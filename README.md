@@ -1,9 +1,33 @@
-# React-Components
+# React-Components-Practice
 
 
-## Grocery List:
+## What's this about?
+
+1. A repository with some components and showcasing the usage of React hooks, HOCs, custom hooks and React libraries (redux, formik and router).
+
+
+## Components:
+
+### Project 1: Image Carousel:
+
+1. A simple image carousel showcasing
+
+## Project 2: FAQ Accordian:
+
+
+## Mini-Projects:
+
+### Project 1: Minimalistic Calculator:
+
+1. Showcasing the useRef hook and event handling.
+
+
+### Project 2: Minimalist Grocery List:
 
 1. Showcases useState and composable components within React.
 2. CSS principles of flexbox and semantic HTML
 
 ![Untitled video - Made with Clipchamp](https://github.com/a9mansoo/React-Components/assets/63682861/44deeb74-93e5-4ca3-a935-f2f8feeeea0d)
+
+
+### Project 3: Interactive Menu:
