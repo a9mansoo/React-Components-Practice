@@ -31,3 +31,13 @@
 
 
 ### Project 3: Interactive Menu:
+
+
+### Project 4: Random Quote Generator:
+
+1. Showcasing the use of 3rd party React Libraries like ChakraUI and Frame Motion
+2. Custom hook for retrieving content from an API and populating the UI
+3. State management with useEffect and UseState
+
+
+

@@ -1,0 +1,38 @@
+.header{
+  text-align: center;
+}
+
+
+.icontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.imgs{
+  max-height: 500px;
+  max-width: 500px;
+  transition: ease-in, 5s;
+}
+
+
+.left-slider{
+  border-radius: 50%;
+  top: 46%;
+  left: 5%;
+  position: absolute;
+  opacity: 50%;
+
+
+}
+
+.right-slider{
+  border-radius: 50%;
+  top: 46%;
+  right: 5%;
+  position: absolute;
+  opacity: 50%;
+
+
+}
