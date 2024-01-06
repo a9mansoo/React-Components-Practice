@@ -35,7 +35,7 @@
 ![Untitled video - Made with Clipchamp](https://github.com/a9mansoo/React-Components/assets/63682861/44deeb74-93e5-4ca3-a935-f2f8feeeea0d)
 
 
-### Project 3: Interactive Menu:
+### Project 3: Toolbar and Modals:
 
 
 ### Project 4: Random Quote Generator:
@@ -45,5 +45,21 @@
 3. State management with useEffect and UseState
 
 ![Untitled video - Made with Clipchamp](https://github.com/a9mansoo/React-Components-Practice/assets/63682861/d07b9bfd-971a-4b51-80c7-905908b751c4)
+
+
+### Project 5: Notetaking Application:
+
+
+
+
+### Project 6: Portfolio:
+
+1. Showcases use of custom hooks, useState, useEffect, useRef, Formik and ChakraUI.
+
+
+
+
+
+
 
 
