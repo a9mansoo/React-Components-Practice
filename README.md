@@ -39,5 +39,6 @@
 2. Custom hook for retrieving content from an API and populating the UI
 3. State management with useEffect and UseState
 
+![Untitled video - Made with Clipchamp](https://github.com/a9mansoo/React-Components-Practice/assets/63682861/d07b9bfd-971a-4b51-80c7-905908b751c4)
 
 
