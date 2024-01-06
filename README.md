@@ -6,11 +6,14 @@
 1. A repository with some components and showcasing the usage of React hooks, HOCs, custom hooks and React libraries (redux, formik and router).
 
 
+
 ## Components:
 
 ### Project 1: Image Carousel:
 
-1. A simple image carousel showcasing
+1. A simple image carousel showcasing useState and transitioning between images
+
+![Untitled video - Made with Clipchamp (1)](https://github.com/a9mansoo/React-Components-Practice/assets/63682861/c919dbf0-ccf8-4930-937d-4bd135903860)
 
 ## Project 2: FAQ Accordian:
 
