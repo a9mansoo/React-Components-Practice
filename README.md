@@ -15,8 +15,10 @@
 
 ![Untitled video - Made with Clipchamp (1)](https://github.com/a9mansoo/React-Components-Practice/assets/63682861/c919dbf0-ccf8-4930-937d-4bd135903860)
 
-## Project 2: FAQ Accordian:
+### Project 2: FAQ Accordian:
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Mini-Projects:
 
